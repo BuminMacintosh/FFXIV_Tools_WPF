@@ -82,7 +82,7 @@ namespace FFXIV.Tools.TargetInformation.Model
             {
                 if (null != this.Ex) return string.Empty;
                 return string.Format(
-                    "{2:0.00}",
+                    "{0:0}",
                     (double)this.Target.Structure.CurrentHP / (double)this.Target.Structure.MaxHP * 100
                 );
             }
