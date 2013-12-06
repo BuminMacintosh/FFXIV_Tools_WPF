@@ -31,18 +31,16 @@
                     <TextBlock Text="D" HorizontalAlignment="Right" />
                 </StackPanel>
                 <StackPanel Orientation="Vertical">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{Binding CurrentHP}" />
-                        <TextBlock Text="/" />
-                        <TextBlock Text="{Binding MaxHP}" />
-                        <TextBlock Text=" (" />
-                        <TextBlock Text="{Binding RateHP}" />
-                        <TextBlock Text="%)" />
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{Binding Distance}" />
-                        <TextBlock Text="m." />
-                    </StackPanel>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <MultiBinding StringFormat="{}{0}/{1} ({2}%)" >
+                                <Binding Path="CurrentHP" />
+                                <Binding Path="MaxHP" />
+                                <Binding Path="RateHP" />
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                    <TextBlock Text="{Binding Distance, StringFormat={}{0} m.}" />
                 </StackPanel>
             </StackPanel>
         </StackPanel>
