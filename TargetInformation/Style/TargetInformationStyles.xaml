@@ -118,7 +118,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate>
-                    <Border x:Name="border" Background="Transparent" CornerRadius="8" Padding="5" BorderThickness="2" Opacity="0.2">
+                    <Border x:Name="border" Background="Transparent" CornerRadius="8" BorderThickness="2" Opacity="0.2">
                         <Border.BorderBrush>
                             <SolidColorBrush Color="Blue" />
                         </Border.BorderBrush>
