@@ -122,12 +122,14 @@
                         <Border.BorderBrush>
                             <SolidColorBrush Color="Blue" />
                         </Border.BorderBrush>
+                        <Rectangle x:Name="filter" RadiusX="8" RadiusY="8" Fill="Black" Opacity="0" />
                         <VisualStateManager.VisualStateGroups>
                             <VisualStateGroup x:Name="CommonStates">
                                 <VisualState x:Name="Normal" />
                                 <VisualState x:Name="MouseOver">
                                     <Storyboard>
                                         <DoubleAnimation Duration="0" Storyboard.TargetName="border" Storyboard.TargetProperty="Opacity" From="0.1" To="1"/>
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="filter" Storyboard.TargetProperty="Opacity" From="0" To="0.5"/>
                                     </Storyboard>
                                 </VisualState>
                             </VisualStateGroup>
