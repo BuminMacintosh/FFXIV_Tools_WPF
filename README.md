@@ -1,7 +1,5 @@
 FFXIV_Tools_WPF
 =========================
-FFXIV_Tools_WPF
-=========================
 sorry. japanese only.
 
 FFXIVLIBを利用してWPFでツールを作成しています。
