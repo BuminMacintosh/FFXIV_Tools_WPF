@@ -97,7 +97,7 @@ namespace FFXIV.Tools.TargetInformation.Model
             {
                 if (null != this.Ex) return string.Empty;
                 return string.Format(
-                    "{0:0.00}",
+                    "{0:0}",
                     (double)Math.Sqrt(
                         Math.Pow(this.Me.Structure.X - this.Target.Structure.X, 2)
                         + Math.Pow(this.Me.Structure.Y - this.Target.Structure.Y, 2)

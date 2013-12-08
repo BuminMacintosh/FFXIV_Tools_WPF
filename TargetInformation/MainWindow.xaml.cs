@@ -39,13 +39,11 @@ namespace FFXIV.Tools.TargetInformation
 
         private void Timer_Start(object sender, MouseEventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine("MainWindow_MouseLeave");
             this.timer.Start();
         }
 
         private void Timer_Stop(object sender, MouseEventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine("MainWindow_MouseEnter");
             this.timer.Stop();
         }
 
