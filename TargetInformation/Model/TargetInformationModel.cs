@@ -12,14 +12,14 @@ namespace FFXIV.Tools.TargetInformation.Model
     {
         private Exception Ex { get; set; }
         private ffxivlib.Entity Target { get; set; }
-        private ffxivlib.PartyMember Me { get; set; }
+        private ffxivlib.Entity Me { get; set; }
 
         /// <summary>
         /// デフォルトコンストラクタ
         /// </summary>
         /// <param name="target">ターゲットを表すFFXIVのオブジェクト</param>
         /// <param name="me">自分自身を表すFFXIVのオブジェクト</param>
-        public TargetInformationModel(ffxivlib.Entity target, ffxivlib.PartyMember me)
+        public TargetInformationModel(ffxivlib.Entity target, ffxivlib.Entity me)
         {
             this.Target = target;
             this.Me = me;
@@ -96,14 +96,7 @@ namespace FFXIV.Tools.TargetInformation.Model
             get
             {
                 if (null != this.Ex) return string.Empty;
-                return string.Format(
-                    "{0:0}",
-                    (double)Math.Sqrt(
-                        Math.Pow(this.Me.Structure.X - this.Target.Structure.X, 2)
-                        + Math.Pow(this.Me.Structure.Y - this.Target.Structure.Y, 2)
-                        + Math.Pow(this.Me.Structure.Z - this.Target.Structure.Z, 2)
-                    )
-                );
+                return string.Format("{0:0.0}",this.Me.GetDistanceTo(this.Target));
             }
         }
     }

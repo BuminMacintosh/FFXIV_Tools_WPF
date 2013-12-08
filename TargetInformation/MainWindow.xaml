@@ -40,7 +40,7 @@
                             </MultiBinding>
                         </TextBlock.Text>
                     </TextBlock>
-                    <TextBlock Text="{Binding Distance, StringFormat={}{0} m.}" />
+                    <TextBlock Text="{Binding Distance, StringFormat={}{0} ﾔﾙﾑ}" />
                 </StackPanel>
             </StackPanel>
         </StackPanel>

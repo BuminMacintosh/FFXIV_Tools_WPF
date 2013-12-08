@@ -53,7 +53,7 @@ namespace FFXIV.Tools.TargetInformation
             {
                 var ffxiv = new ffxivlib.FFXIVLIB();
                 this.DataContext = new Model.TargetInformationModel(ffxiv.GetCurrentTarget(),
-                                                                    ffxiv.GetPartyMemberInfo(0));
+                                                                    ffxiv.GetEntityInfo(0));
             }
             catch (Exception ex)
             {
