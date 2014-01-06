@@ -57,6 +57,7 @@ namespace FFXIV.Tools.TargetInformation.Model
             get
             {
                 if (null != this.Ex) return string.Empty;
+                if (0 > this.Target.Structure.CurrentHP) return "0";
                 return this.Target.Structure.CurrentHP.ToString();
             }
         }
@@ -69,6 +70,7 @@ namespace FFXIV.Tools.TargetInformation.Model
             get
             {
                 if (null != this.Ex) return string.Empty;
+                if (0 > this.Target.Structure.MaxHP) return "0";
                 return this.Target.Structure.MaxHP.ToString();
             }
         }
@@ -81,10 +83,22 @@ namespace FFXIV.Tools.TargetInformation.Model
             get
             {
                 if (null != this.Ex) return string.Empty;
-                return string.Format(
-                    "{0:0}",
-                    (double)this.Target.Structure.CurrentHP / (double)this.Target.Structure.MaxHP * 100
-                );
+                if (0 >= this.Target.Structure.MaxHP) return string.Empty;
+                return string.Format("{0:0}", (double)this.Target.Structure.CurrentHP
+                                            / (double)this.Target.Structure.MaxHP * 100);
+            }
+        }
+
+        /// <summary>
+        /// ターゲットの現在TP
+        /// </summary>
+        public string CurrentTP
+        {
+            get
+            {
+                if (null != this.Ex) return string.Empty;
+                if (0 > this.Target.Structure.CurrentTP) return "0";
+                return string.Format("{0}", this.Target.Structure.CurrentTP);
             }
         }
 
@@ -96,7 +110,7 @@ namespace FFXIV.Tools.TargetInformation.Model
             get
             {
                 if (null != this.Ex) return string.Empty;
-                return string.Format("{0:0.0}",this.Me.GetDistanceTo(this.Target));
+                return string.Format("{0:0.0}", this.Me.GetDistanceTo(this.Target));
             }
         }
     }
