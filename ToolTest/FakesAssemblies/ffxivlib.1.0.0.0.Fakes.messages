@@ -1,0 +1,43 @@
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.BUFF のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.BaseObject`1 のスタブを生成できません: 型にファミリで表示できるコントラクターがありません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.JOB のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.SEX のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ENTITYSTATUS のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.STATUS のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.TYPE のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ICON のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.CURRENTTARGET のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.EQUIP_POS のスタブを生成できません: 型は値型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : Constants のスタブを生成できません: 型はシールされています。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Library のスタブを生成できません: 型は exported or assembly(ffxivlib.1.0.0.0.Fakes) から参照できません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.MemoryReader のスタブを生成できません: 型はシールされています。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.MovementHelper のスタブを生成できません: 型にファミリで表示できるコントラクターがありません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ResourceParser のスタブを生成できません: 型はシールされています。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.SendKeyInput のスタブを生成できません: 型にファミリで表示できるコントラクターがありません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Serializer のスタブを生成できません: 型は exported or assembly(ffxivlib.1.0.0.0.Fakes) から参照できません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.SigScanner のスタブを生成できません: 型は exported or assembly(ffxivlib.1.0.0.0.Fakes) から参照できません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Chatlog+Entry+<>c__DisplayClass13 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Chatlog+Entry+<>c__DisplayClass4 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Chatlog+Entry+<>c__DisplayClasse の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.FFXIVLIB+<>c__DisplayClass1 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.FFXIVLIB+<>c__DisplayClass4 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.JOB の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.SEX の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ENTITYSTATUS の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.STATUS の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.TYPE の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ICON の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.CURRENTTARGET の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.EQUIP_POS の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Inventory+Type の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Library の shim を生成できません: 型は exported or assembly(ffxivlib.1.0.0.0.Fakes) から参照できません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.MemoryReader の shim を生成できません: 型は exported or assembly(ffxivlib.1.0.0.0.Fakes) から参照できません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.MovementHelper+<>c__DisplayClass4 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.MovementHelper+<>c__DisplayClass7 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ResourceParser+<>c__DisplayClass12 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ResourceParser+<>c__DisplayClassa の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ResourceParser+<>c__DisplayClasse の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.ResourceParser+<StreamElements>d__0 の shim を生成できません: 型は内部の制限によりサポートされていません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.SendKeyInput+VKKeys の shim を生成できません: 型は列挙型です。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.Serializer の shim を生成できません: 型は exported or assembly(ffxivlib.1.0.0.0.Fakes) から参照できません。
+C:\Projects\GitHub\FFXIV_Tools_WPF\ToolTest\Fakes\ffxivlib.fakes : warning : ffxivlib.SigScanner の shim を生成できません: 型は exported or assembly(ffxivlib.1.0.0.0.Fakes) から参照できません。

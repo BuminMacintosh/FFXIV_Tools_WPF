@@ -1,17 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading;
 
 namespace FFXIV.Tools.TargetInformation
@@ -52,6 +41,7 @@ namespace FFXIV.Tools.TargetInformation
             try
             {
                 var ffxiv = new ffxivlib.FFXIVLIB();
+
                 this.DataContext = new Model.TargetInformationModel(ffxiv.GetCurrentTarget(),
                                                                     ffxiv.GetEntityInfo(0));
             }

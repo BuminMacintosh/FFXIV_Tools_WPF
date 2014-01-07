@@ -1,0 +1,3203 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ffxivlib.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Global.Fakes.ShimConstants">
+            <summary>Constants の shim 型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimConstants.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimConstants.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimConstants.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimConstants.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimConstants.StaticConstructor">
+            <summary>Constants.Constants() の shim の設定</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimConstants.ShimResourceParser">
+            <summary>Constants+ResourceParser の shim 型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimConstants.ShimResourceParser.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimConstants.ShimResourceParser.#ctor(Constants.ResourceParser)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimConstants.ShimResourceParser.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimConstants.ShimResourceParser.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimConstants.ShimResourceParser.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimConstants.ShimResourceParser.Constructor">
+            <summary>ResourceParser.ResourceParser() の shim の設定</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimConstants.ShimResourceParser.StaticConstructor">
+            <summary>ResourceParser.ResourceParser() の shim の設定</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimConstants.ShimResourceParser.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimBUFF">
+            <summary>ffxivlib.BUFF の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBUFF.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBUFF.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBUFF.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBUFF.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimBUFF.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimBaseObject`1">
+            <summary>ffxivlib.BaseObject`1 の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBaseObject`1.#ctor(ffxivlib.BaseObject{`0})">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBaseObject`1.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBaseObject`1.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBaseObject`1.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0})">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AddressGet">
+            <summary>BaseObject`1.get_Address() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AddressSetIntPtr">
+            <summary>BaseObject`1.set_Address(IntPtr value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.ConstructorT0IntPtr">
+            <summary>BaseObject`1.BaseObject`1(!0 structure, IntPtr address) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.Initialize">
+            <summary>BaseObject`1.Initialize() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.Refresh">
+            <summary>BaseObject`1.Refresh() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.StructureGet">
+            <summary>BaseObject`1.get_Structure() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.StructureSetT0">
+            <summary>BaseObject`1.set_Structure(!0 value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimBaseObject`1.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimBaseObject`1.AllInstances.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{ffxivlib.BaseObject{`0},System.String,``0})">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AllInstances.AddressGet">
+            <summary>BaseObject`1.get_Address() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AllInstances.AddressSetIntPtr">
+            <summary>BaseObject`1.set_Address(IntPtr value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AllInstances.Initialize">
+            <summary>BaseObject`1.Initialize() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AllInstances.Refresh">
+            <summary>BaseObject`1.Refresh() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AllInstances.StructureGet">
+            <summary>BaseObject`1.get_Structure() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimBaseObject`1.AllInstances.StructureSetT0">
+            <summary>BaseObject`1.set_Structure(!0 value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimChatlog">
+            <summary>ffxivlib.Chatlog の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.#ctor(ffxivlib.Chatlog)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ConstructorChatlogCHATLOGINFOIntPtr">
+            <summary>Chatlog.Chatlog(CHATLOGINFO structure, IntPtr address) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.GetChatLogLines">
+            <summary>Chatlog.GetChatLogLines() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.IsNewLine">
+            <summary>Chatlog.IsNewLine() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ReadEntriesInt32Int32">
+            <summary>Chatlog.ReadEntries(Int32 start, Int32 end) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ReadEntryInt32Int32">
+            <summary>Chatlog.ReadEntry(Int32 start, Int32 end) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.UpdateBuffer">
+            <summary>Chatlog.UpdateBuffer() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.UpdateOffsetArray">
+            <summary>Chatlog.UpdateOffsetArray() の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimChatlog.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.AllInstances.GetChatLogLines">
+            <summary>Chatlog.GetChatLogLines() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.AllInstances.IsNewLine">
+            <summary>Chatlog.IsNewLine() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.AllInstances.ReadEntriesInt32Int32">
+            <summary>Chatlog.ReadEntries(Int32 start, Int32 end) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.AllInstances.ReadEntryInt32Int32">
+            <summary>Chatlog.ReadEntry(Int32 start, Int32 end) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.AllInstances.UpdateBuffer">
+            <summary>Chatlog.UpdateBuffer() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.AllInstances.UpdateOffsetArray">
+            <summary>Chatlog.UpdateOffsetArray() の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimChatlog.ShimCHATLOGINFO">
+            <summary>ffxivlib.Chatlog+CHATLOGINFO の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.ShimCHATLOGINFO.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.ShimCHATLOGINFO.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.ShimCHATLOGINFO.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimCHATLOGINFO.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimChatlog.ShimCHATLOGINFO.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimChatlog.ShimEntry">
+            <summary>ffxivlib.Chatlog+Entry の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.ShimEntry.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.ShimEntry.#ctor(ffxivlib.Chatlog.Entry)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.ShimEntry.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimChatlog.ShimEntry.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CleanEmoteListOfByte">
+            <summary>Entry.CleanEmote(List`1&lt;Byte&gt; workingCopy) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CleanFormatListOfByte">
+            <summary>Entry.CleanFormat(List`1&lt;Byte&gt; workingCopy) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CleanHQListOfByte">
+            <summary>Entry.CleanHQ(List`1&lt;Byte&gt; workingCopy) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CleanMobListOfByte">
+            <summary>Entry.CleanMob(List`1&lt;Byte&gt; workingCopy) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CleanNameListOfByte">
+            <summary>Entry.CleanName(List`1&lt;Byte&gt; workingCopy) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CleanStringString">
+            <summary>Entry.CleanString(String input) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CodeGet">
+            <summary>Entry.get_Code() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.CodeSetString">
+            <summary>Entry.set_Code(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.ConstructorByteArray">
+            <summary>Entry.Entry(Byte[] raw) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.GetTimeStampDouble">
+            <summary>Entry.GetTimeStamp(Double value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.ProcessEntryByteArray">
+            <summary>Entry.ProcessEntry(Byte[] raw) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.RawGet">
+            <summary>Entry.get_Raw() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.RawModifiedGet">
+            <summary>Entry.get_RawModified() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.RawModifiedSetByteArray">
+            <summary>Entry.set_RawModified(Byte[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.RawSetByteArray">
+            <summary>Entry.set_Raw(Byte[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.RawStringGet">
+            <summary>Entry.get_RawString() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.RawStringSetString">
+            <summary>Entry.set_RawString(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.ReplaceAutotranslateListOfByte">
+            <summary>Entry.ReplaceAutotranslate(List`1&lt;Byte&gt; workingCopy) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.TextGet">
+            <summary>Entry.get_Text() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.TextSetString">
+            <summary>Entry.set_Text(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.TimestampGet">
+            <summary>Entry.get_Timestamp() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.TimestampSetDateTime">
+            <summary>Entry.set_Timestamp(DateTime value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._CleanEmoteb__aByte">
+            <summary>Entry.&lt;CleanEmote&gt;b__a(Byte item) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._CleanFormatb__15ByteInt32">
+            <summary>Entry.&lt;CleanFormat&gt;b__15(Byte b, Int32 i) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._CleanFormatb__16Int32">
+            <summary>Entry.&lt;CleanFormat&gt;b__16(Int32 i) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._CleanNameb__19Byte">
+            <summary>Entry.&lt;CleanName&gt;b__19(Byte f) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._CleanNameb__1aByte">
+            <summary>Entry.&lt;CleanName&gt;b__1a(Byte item) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._CleanNameb__1bByte">
+            <summary>Entry.&lt;CleanName&gt;b__1b(Byte item) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._CleanStringb__6Char">
+            <summary>Entry.&lt;CleanString&gt;b__6(Char value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry._ReplaceAutotranslateb__2Int32">
+            <summary>Entry.&lt;ReplaceAutotranslate&gt;b__2(Int32 i) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.CodeGet">
+            <summary>Entry.get_Code() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.CodeSetString">
+            <summary>Entry.set_Code(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.ProcessEntryByteArray">
+            <summary>Entry.ProcessEntry(Byte[] raw) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.RawGet">
+            <summary>Entry.get_Raw() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.RawModifiedGet">
+            <summary>Entry.get_RawModified() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.RawModifiedSetByteArray">
+            <summary>Entry.set_RawModified(Byte[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.RawSetByteArray">
+            <summary>Entry.set_Raw(Byte[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.RawStringGet">
+            <summary>Entry.get_RawString() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.RawStringSetString">
+            <summary>Entry.set_RawString(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.TextGet">
+            <summary>Entry.get_Text() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.TextSetString">
+            <summary>Entry.set_Text(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.TimestampGet">
+            <summary>Entry.get_Timestamp() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimChatlog.ShimEntry.AllInstances.TimestampSetDateTime">
+            <summary>Entry.set_Timestamp(DateTime value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimEntity">
+            <summary>ffxivlib.Entity の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimEntity.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimEntity.#ctor(ffxivlib.Entity)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimEntity.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimEntity.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AggroGet">
+            <summary>Entity.get_Aggro() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AggroSetByte">
+            <summary>Entity.set_Aggro(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.BuffsGet">
+            <summary>Entity.get_Buffs() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.BuffsSetBUFFArray">
+            <summary>Entity.set_Buffs(BUFF[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CastingPercentageGet">
+            <summary>Entity.get_CastingPercentage() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CastingProgressGet">
+            <summary>Entity.get_CastingProgress() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CastingProgressSetSingle">
+            <summary>Entity.set_CastingProgress(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CastingSpellIdGet">
+            <summary>Entity.get_CastingSpellId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CastingSpellIdSetInt16">
+            <summary>Entity.set_CastingSpellId(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CastingTimeGet">
+            <summary>Entity.get_CastingTime() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CastingTimeSetSingle">
+            <summary>Entity.set_CastingTime(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.ConstructorEntityENTITYINFOIntPtr">
+            <summary>Entity.Entity(ENTITYINFO structure, IntPtr address) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentCPGet">
+            <summary>Entity.get_CurrentCP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentCPSetInt16">
+            <summary>Entity.set_CurrentCP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentGPGet">
+            <summary>Entity.get_CurrentGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentGPSetInt16">
+            <summary>Entity.set_CurrentGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentHPGet">
+            <summary>Entity.get_CurrentHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentHPSetInt32">
+            <summary>Entity.set_CurrentHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentMPGet">
+            <summary>Entity.get_CurrentMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentMPSetInt32">
+            <summary>Entity.set_CurrentMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentTPGet">
+            <summary>Entity.get_CurrentTP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentTPSetInt16">
+            <summary>Entity.set_CurrentTP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentTargetGet">
+            <summary>Entity.get_CurrentTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.CurrentTargetSetCURRENTTARGET">
+            <summary>Entity.set_CurrentTarget(CURRENTTARGET value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.DistanceGet">
+            <summary>Entity.get_Distance() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.DistanceSetByte">
+            <summary>Entity.set_Distance(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GatheringInvisibleGet">
+            <summary>Entity.get_GatheringInvisible() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GatheringInvisibleSetByte">
+            <summary>Entity.set_GatheringInvisible(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GatheringStatusGet">
+            <summary>Entity.get_GatheringStatus() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GatheringStatusSetByte">
+            <summary>Entity.set_GatheringStatus(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GatheringTypeGet">
+            <summary>Entity.get_GatheringType() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GatheringTypeSetInt32">
+            <summary>Entity.set_GatheringType(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GetDistanceToEntity">
+            <summary>Entity.GetDistanceTo(Entity other) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GrandCompanyGet">
+            <summary>Entity.get_GrandCompany() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GrandCompanyRankGet">
+            <summary>Entity.get_GrandCompanyRank() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GrandCompanyRankSetByte">
+            <summary>Entity.set_GrandCompanyRank(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.GrandCompanySetByte">
+            <summary>Entity.set_GrandCompany(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.HeadingGet">
+            <summary>Entity.get_Heading() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.HeadingSetSingle">
+            <summary>Entity.set_Heading(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IconGet">
+            <summary>Entity.get_Icon() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IconSetByte">
+            <summary>Entity.set_Icon(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IsCastingGet">
+            <summary>Entity.get_IsCasting() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IsCastingSetBoolean">
+            <summary>Entity.set_IsCasting(Boolean value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IsEngagedGet">
+            <summary>Entity.get_IsEngaged() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IsEngagedSetSTATUS">
+            <summary>Entity.set_IsEngaged(STATUS value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IsGMGet">
+            <summary>Entity.get_IsGM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.IsGMSetBoolean">
+            <summary>Entity.set_IsGM(Boolean value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.JobGet">
+            <summary>Entity.get_Job() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.JobSetJOB">
+            <summary>Entity.set_Job(JOB value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.LevelGet">
+            <summary>Entity.get_Level() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.LevelSetByte">
+            <summary>Entity.set_Level(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxCPGet">
+            <summary>Entity.get_MaxCP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxCPSetInt16">
+            <summary>Entity.set_MaxCP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxGPGet">
+            <summary>Entity.get_MaxGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxGPSetInt16">
+            <summary>Entity.set_MaxGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxHPGet">
+            <summary>Entity.get_MaxHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxHPSetInt32">
+            <summary>Entity.set_MaxHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxMPGet">
+            <summary>Entity.get_MaxMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MaxMPSetInt32">
+            <summary>Entity.set_MaxMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MobTypeGet">
+            <summary>Entity.get_MobType() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.MobTypeSetTYPE">
+            <summary>Entity.set_MobType(TYPE value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.ModelIDGet">
+            <summary>Entity.get_ModelID() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.ModelIDSetInt32">
+            <summary>Entity.set_ModelID(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.NPCIdGet">
+            <summary>Entity.get_NPCId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.NPCIdSetInt32">
+            <summary>Entity.set_NPCId(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.NameGet">
+            <summary>Entity.get_Name() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.NameSetString">
+            <summary>Entity.set_Name(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.PCIdGet">
+            <summary>Entity.get_PCId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.PCIdSetInt32">
+            <summary>Entity.set_PCId(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.PlayerStatusGet">
+            <summary>Entity.get_PlayerStatus() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.PlayerStatusSetENTITYSTATUS">
+            <summary>Entity.set_PlayerStatus(ENTITYSTATUS value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.RaceGet">
+            <summary>Entity.get_Race() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.RaceSetByte">
+            <summary>Entity.set_Race(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.SexGet">
+            <summary>Entity.get_Sex() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.SexSetSEX">
+            <summary>Entity.set_Sex(SEX value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.TargetIdGet">
+            <summary>Entity.get_TargetId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.TargetIdSetInt32">
+            <summary>Entity.set_TargetId(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.TitleGet">
+            <summary>Entity.get_Title() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.TitleSetByte">
+            <summary>Entity.set_Title(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.XGet">
+            <summary>Entity.get_X() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.XSetSingle">
+            <summary>Entity.set_X(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.YGet">
+            <summary>Entity.get_Y() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.YSetSingle">
+            <summary>Entity.set_Y(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.ZGet">
+            <summary>Entity.get_Z() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.ZSetSingle">
+            <summary>Entity.set_Z(Single value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimEntity.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.AggroGet">
+            <summary>Entity.get_Aggro() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.AggroSetByte">
+            <summary>Entity.set_Aggro(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.BuffsGet">
+            <summary>Entity.get_Buffs() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.BuffsSetBUFFArray">
+            <summary>Entity.set_Buffs(BUFF[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CastingPercentageGet">
+            <summary>Entity.get_CastingPercentage() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CastingProgressGet">
+            <summary>Entity.get_CastingProgress() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CastingProgressSetSingle">
+            <summary>Entity.set_CastingProgress(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CastingSpellIdGet">
+            <summary>Entity.get_CastingSpellId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CastingSpellIdSetInt16">
+            <summary>Entity.set_CastingSpellId(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CastingTimeGet">
+            <summary>Entity.get_CastingTime() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CastingTimeSetSingle">
+            <summary>Entity.set_CastingTime(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentCPGet">
+            <summary>Entity.get_CurrentCP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentCPSetInt16">
+            <summary>Entity.set_CurrentCP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentGPGet">
+            <summary>Entity.get_CurrentGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentGPSetInt16">
+            <summary>Entity.set_CurrentGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentHPGet">
+            <summary>Entity.get_CurrentHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentHPSetInt32">
+            <summary>Entity.set_CurrentHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentMPGet">
+            <summary>Entity.get_CurrentMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentMPSetInt32">
+            <summary>Entity.set_CurrentMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentTPGet">
+            <summary>Entity.get_CurrentTP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentTPSetInt16">
+            <summary>Entity.set_CurrentTP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentTargetGet">
+            <summary>Entity.get_CurrentTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.CurrentTargetSetCURRENTTARGET">
+            <summary>Entity.set_CurrentTarget(CURRENTTARGET value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.DistanceGet">
+            <summary>Entity.get_Distance() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.DistanceSetByte">
+            <summary>Entity.set_Distance(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GatheringInvisibleGet">
+            <summary>Entity.get_GatheringInvisible() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GatheringInvisibleSetByte">
+            <summary>Entity.set_GatheringInvisible(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GatheringStatusGet">
+            <summary>Entity.get_GatheringStatus() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GatheringStatusSetByte">
+            <summary>Entity.set_GatheringStatus(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GatheringTypeGet">
+            <summary>Entity.get_GatheringType() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GatheringTypeSetInt32">
+            <summary>Entity.set_GatheringType(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GetDistanceToEntity">
+            <summary>Entity.GetDistanceTo(Entity other) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GrandCompanyGet">
+            <summary>Entity.get_GrandCompany() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GrandCompanyRankGet">
+            <summary>Entity.get_GrandCompanyRank() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GrandCompanyRankSetByte">
+            <summary>Entity.set_GrandCompanyRank(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.GrandCompanySetByte">
+            <summary>Entity.set_GrandCompany(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.HeadingGet">
+            <summary>Entity.get_Heading() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.HeadingSetSingle">
+            <summary>Entity.set_Heading(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IconGet">
+            <summary>Entity.get_Icon() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IconSetByte">
+            <summary>Entity.set_Icon(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IsCastingGet">
+            <summary>Entity.get_IsCasting() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IsCastingSetBoolean">
+            <summary>Entity.set_IsCasting(Boolean value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IsEngagedGet">
+            <summary>Entity.get_IsEngaged() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IsEngagedSetSTATUS">
+            <summary>Entity.set_IsEngaged(STATUS value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IsGMGet">
+            <summary>Entity.get_IsGM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.IsGMSetBoolean">
+            <summary>Entity.set_IsGM(Boolean value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.JobGet">
+            <summary>Entity.get_Job() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.JobSetJOB">
+            <summary>Entity.set_Job(JOB value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.LevelGet">
+            <summary>Entity.get_Level() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.LevelSetByte">
+            <summary>Entity.set_Level(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxCPGet">
+            <summary>Entity.get_MaxCP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxCPSetInt16">
+            <summary>Entity.set_MaxCP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxGPGet">
+            <summary>Entity.get_MaxGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxGPSetInt16">
+            <summary>Entity.set_MaxGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxHPGet">
+            <summary>Entity.get_MaxHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxHPSetInt32">
+            <summary>Entity.set_MaxHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxMPGet">
+            <summary>Entity.get_MaxMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MaxMPSetInt32">
+            <summary>Entity.set_MaxMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MobTypeGet">
+            <summary>Entity.get_MobType() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.MobTypeSetTYPE">
+            <summary>Entity.set_MobType(TYPE value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.ModelIDGet">
+            <summary>Entity.get_ModelID() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.ModelIDSetInt32">
+            <summary>Entity.set_ModelID(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.NPCIdGet">
+            <summary>Entity.get_NPCId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.NPCIdSetInt32">
+            <summary>Entity.set_NPCId(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.NameGet">
+            <summary>Entity.get_Name() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.NameSetString">
+            <summary>Entity.set_Name(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.PCIdGet">
+            <summary>Entity.get_PCId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.PCIdSetInt32">
+            <summary>Entity.set_PCId(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.PlayerStatusGet">
+            <summary>Entity.get_PlayerStatus() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.PlayerStatusSetENTITYSTATUS">
+            <summary>Entity.set_PlayerStatus(ENTITYSTATUS value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.RaceGet">
+            <summary>Entity.get_Race() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.RaceSetByte">
+            <summary>Entity.set_Race(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.SexGet">
+            <summary>Entity.get_Sex() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.SexSetSEX">
+            <summary>Entity.set_Sex(SEX value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.TargetIdGet">
+            <summary>Entity.get_TargetId() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.TargetIdSetInt32">
+            <summary>Entity.set_TargetId(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.TitleGet">
+            <summary>Entity.get_Title() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.TitleSetByte">
+            <summary>Entity.set_Title(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.XGet">
+            <summary>Entity.get_X() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.XSetSingle">
+            <summary>Entity.set_X(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.YGet">
+            <summary>Entity.get_Y() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.YSetSingle">
+            <summary>Entity.set_Y(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.ZGet">
+            <summary>Entity.get_Z() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.AllInstances.ZSetSingle">
+            <summary>Entity.set_Z(Single value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimEntity.ShimENTITYINFO">
+            <summary>ffxivlib.Entity+ENTITYINFO の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimEntity.ShimENTITYINFO.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimEntity.ShimENTITYINFO.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimEntity.ShimENTITYINFO.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimEntity.ShimENTITYINFO.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimEntity.ShimENTITYINFO.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimFFXIVLIB">
+            <summary>ffxivlib.FFXIVLIB の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimFFXIVLIB.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimFFXIVLIB.#ctor(ffxivlib.FFXIVLIB)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimFFXIVLIB.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimFFXIVLIB.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.ConstructorInt32">
+            <summary>FFXIVLIB.FFXIVLIB(Int32 pid) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetArmoryChest">
+            <summary>FFXIVLIB.GetArmoryChest() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetChatlog">
+            <summary>FFXIVLIB.GetChatlog() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetCompanyInventory">
+            <summary>FFXIVLIB.GetCompanyInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetCurrentEquipment">
+            <summary>FFXIVLIB.GetCurrentEquipment() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetCurrentTarget">
+            <summary>FFXIVLIB.GetCurrentTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetEntityByIdInt32">
+            <summary>FFXIVLIB.GetEntityById(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetEntityByNameString">
+            <summary>FFXIVLIB.GetEntityByName(String name) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetEntityByTypeTYPE">
+            <summary>FFXIVLIB.GetEntityByType(TYPE type) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetEntityInfoInt32">
+            <summary>FFXIVLIB.GetEntityInfo(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetFocusTarget">
+            <summary>FFXIVLIB.GetFocusTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetMouseoverTarget">
+            <summary>FFXIVLIB.GetMouseoverTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetMovementHelperSendKeyInputVKKeysSendKeyInputVKKeysSendKeyInputVKKeys">
+            <summary>FFXIVLIB.GetMovementHelper(VKKeys leftKey, VKKeys rightKey, VKKeys forwardKey) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetPartyMemberByIdInt32">
+            <summary>FFXIVLIB.GetPartyMemberById(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetPartyMemberInfoInt32">
+            <summary>FFXIVLIB.GetPartyMemberInfo(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetPlayerInfo">
+            <summary>FFXIVLIB.GetPlayerInfo() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetPreviousTarget">
+            <summary>FFXIVLIB.GetPreviousTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetQuests">
+            <summary>FFXIVLIB.GetQuests() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetRetainerInventory">
+            <summary>FFXIVLIB.GetRetainerInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetSelfInventory">
+            <summary>FFXIVLIB.GetSelfInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetServerName">
+            <summary>FFXIVLIB.GetServerName() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetSigScanByteArray">
+            <summary>FFXIVLIB.GetSigScan(Byte[] signature) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.GetTargets">
+            <summary>FFXIVLIB.GetTargets() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.ReadMemoryIntPtrUInt32">
+            <summary>FFXIVLIB.ReadMemory(IntPtr pointer, UInt32 count) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.SendKeyIntPtrBooleanInt32">
+            <summary>FFXIVLIB.SendKey(IntPtr key, Boolean keyup, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetArmoryChest">
+            <summary>FFXIVLIB.GetArmoryChest() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetChatlog">
+            <summary>FFXIVLIB.GetChatlog() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetCompanyInventory">
+            <summary>FFXIVLIB.GetCompanyInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetCurrentEquipment">
+            <summary>FFXIVLIB.GetCurrentEquipment() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetCurrentTarget">
+            <summary>FFXIVLIB.GetCurrentTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetEntityByIdInt32">
+            <summary>FFXIVLIB.GetEntityById(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetEntityByNameString">
+            <summary>FFXIVLIB.GetEntityByName(String name) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetEntityByTypeTYPE">
+            <summary>FFXIVLIB.GetEntityByType(TYPE type) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetEntityInfoInt32">
+            <summary>FFXIVLIB.GetEntityInfo(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetFocusTarget">
+            <summary>FFXIVLIB.GetFocusTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetMouseoverTarget">
+            <summary>FFXIVLIB.GetMouseoverTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetMovementHelperSendKeyInputVKKeysSendKeyInputVKKeysSendKeyInputVKKeys">
+            <summary>FFXIVLIB.GetMovementHelper(VKKeys leftKey, VKKeys rightKey, VKKeys forwardKey) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetPartyMemberByIdInt32">
+            <summary>FFXIVLIB.GetPartyMemberById(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetPartyMemberInfoInt32">
+            <summary>FFXIVLIB.GetPartyMemberInfo(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetPlayerInfo">
+            <summary>FFXIVLIB.GetPlayerInfo() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetPreviousTarget">
+            <summary>FFXIVLIB.GetPreviousTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetQuests">
+            <summary>FFXIVLIB.GetQuests() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetRetainerInventory">
+            <summary>FFXIVLIB.GetRetainerInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetSelfInventory">
+            <summary>FFXIVLIB.GetSelfInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetServerName">
+            <summary>FFXIVLIB.GetServerName() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetSigScanByteArray">
+            <summary>FFXIVLIB.GetSigScan(Byte[] signature) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.GetTargets">
+            <summary>FFXIVLIB.GetTargets() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.ReadMemoryIntPtrUInt32">
+            <summary>FFXIVLIB.ReadMemory(IntPtr pointer, UInt32 count) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimFFXIVLIB.AllInstances.SendKeyIntPtrBooleanInt32">
+            <summary>FFXIVLIB.SendKey(IntPtr key, Boolean keyup, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory">
+            <summary>ffxivlib.Inventory の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.#ctor(ffxivlib.Inventory)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.BuildSubListBooleanInventoryINVENTORYCONTAINERArray">
+            <summary>Inventory.BuildSubList(Boolean cleaned, INVENTORYCONTAINER[] inventorycontainer) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.BuildSubListInventoryINVENTORYCONTAINERBoolean">
+            <summary>Inventory.BuildSubList(INVENTORYCONTAINER inventorycontainer, Boolean clean) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ConstructorInventoryINVENTORYIntPtr">
+            <summary>Inventory.Inventory(INVENTORY structure, IntPtr address) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.GetArmoryChest">
+            <summary>Inventory.GetArmoryChest() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.GetCompanyInventory">
+            <summary>Inventory.GetCompanyInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.GetCurrentEquipment">
+            <summary>Inventory.GetCurrentEquipment() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.GetQuests">
+            <summary>Inventory.GetQuests() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.GetRetainerInventory">
+            <summary>Inventory.GetRetainerInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.GetSelfInventory">
+            <summary>Inventory.GetSelfInventory() の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.BuildSubListBooleanInventoryINVENTORYCONTAINERArray">
+            <summary>Inventory.BuildSubList(Boolean cleaned, INVENTORYCONTAINER[] inventorycontainer) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.BuildSubListInventoryINVENTORYCONTAINERBoolean">
+            <summary>Inventory.BuildSubList(INVENTORYCONTAINER inventorycontainer, Boolean clean) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.GetArmoryChest">
+            <summary>Inventory.GetArmoryChest() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.GetCompanyInventory">
+            <summary>Inventory.GetCompanyInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.GetCurrentEquipment">
+            <summary>Inventory.GetCurrentEquipment() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.GetQuests">
+            <summary>Inventory.GetQuests() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.GetRetainerInventory">
+            <summary>Inventory.GetRetainerInventory() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.AllInstances.GetSelfInventory">
+            <summary>Inventory.GetSelfInventory() の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimINVENTORY">
+            <summary>ffxivlib.Inventory+INVENTORY の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimINVENTORY.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimINVENTORY.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimINVENTORY.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimINVENTORY.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimINVENTORY.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimINVENTORYCONTAINER">
+            <summary>ffxivlib.Inventory+INVENTORYCONTAINER の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimINVENTORYCONTAINER.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimINVENTORYCONTAINER.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimINVENTORYCONTAINER.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimINVENTORYCONTAINER.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimINVENTORYCONTAINER.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimITEM">
+            <summary>ffxivlib.Inventory+ITEM の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimITEM.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimITEM.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimITEM.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimITEM.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimITEM.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder">
+            <summary>ffxivlib.Inventory+InventoryBuilder の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.#ctor(ffxivlib.Inventory.InventoryBuilder)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.AdditionOpInventoryInventoryBuilderInventoryInventoryBuilder">
+            <summary>InventoryBuilder.op_Addition(InventoryBuilder ic1, InventoryBuilder ic2) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.Constructor">
+            <summary>InventoryBuilder.InventoryBuilder() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.ConstructorIntPtrInt32Boolean">
+            <summary>InventoryBuilder.InventoryBuilder(IntPtr pointer, Int32 count, Boolean clean) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.ItemsGet">
+            <summary>InventoryBuilder.get_Items() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.ItemsSetListOfInventoryITEM">
+            <summary>InventoryBuilder.set_Items(List`1&lt;ITEM&gt; value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.AllInstances.ItemsGet">
+            <summary>InventoryBuilder.get_Items() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimInventory.ShimInventoryBuilder.AllInstances.ItemsSetListOfInventoryITEM">
+            <summary>InventoryBuilder.set_Items(List`1&lt;ITEM&gt; value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimMovementHelper">
+            <summary>ffxivlib.MovementHelper の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimMovementHelper.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimMovementHelper.#ctor(ffxivlib.MovementHelper)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimMovementHelper.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimMovementHelper.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.ConstructorEntitySendKeyInputVKKeysSendKeyInputVKKeysSendKeyInputVKKeys">
+            <summary>MovementHelper.MovementHelper(Entity player, VKKeys leftKey, VKKeys rightKey, VKKeys forwardKey) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.DistanceToDoubleDoubleDouble">
+            <summary>MovementHelper.DistanceTo(Double x, Double y, Double z) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.GoToPosSingleSingleSingle">
+            <summary>MovementHelper.GoToPos(Single x, Single y, Single z) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.HeadingErrorDoubleDouble">
+            <summary>MovementHelper.HeadingError(Double pHeading, Double tHeading) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.HeadingToSingleSingle">
+            <summary>MovementHelper.HeadingTo(Single x, Single y) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.PauseWaypoint">
+            <summary>MovementHelper.PauseWaypoint() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.PlayWaypointStringListOfMovementHelperCoords">
+            <summary>MovementHelper.PlayWaypoint(String filename, List`1&lt;Coords&gt; list) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.StartRecordingCoordinatesStringInt32">
+            <summary>MovementHelper.StartRecordingCoordinates(String filename, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.StopRecordingWaypoint">
+            <summary>MovementHelper.StopRecordingWaypoint() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.WhereToHeadtoDoubleDouble">
+            <summary>MovementHelper.WhereToHeadto(Double tHeading, Double pHeading) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.XIVRadianToDegreeSingle">
+            <summary>MovementHelper.XIVRadianToDegree(Single angle) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper._playWaypointStringListOfMovementHelperCoords">
+            <summary>MovementHelper._playWaypoint(String filename, List`1&lt;Coords&gt; list) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper._startRecordingWaypointStringInt32">
+            <summary>MovementHelper._startRecordingWaypoint(String filename, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimMovementHelper.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.DistanceToDoubleDoubleDouble">
+            <summary>MovementHelper.DistanceTo(Double x, Double y, Double z) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.GoToPosSingleSingleSingle">
+            <summary>MovementHelper.GoToPos(Single x, Single y, Single z) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.HeadingErrorDoubleDouble">
+            <summary>MovementHelper.HeadingError(Double pHeading, Double tHeading) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.HeadingToSingleSingle">
+            <summary>MovementHelper.HeadingTo(Single x, Single y) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.PauseWaypoint">
+            <summary>MovementHelper.PauseWaypoint() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.PlayWaypointStringListOfMovementHelperCoords">
+            <summary>MovementHelper.PlayWaypoint(String filename, List`1&lt;Coords&gt; list) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.StartRecordingCoordinatesStringInt32">
+            <summary>MovementHelper.StartRecordingCoordinates(String filename, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.StopRecordingWaypoint">
+            <summary>MovementHelper.StopRecordingWaypoint() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances.WhereToHeadtoDoubleDouble">
+            <summary>MovementHelper.WhereToHeadto(Double tHeading, Double pHeading) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances._playWaypointStringListOfMovementHelperCoords">
+            <summary>MovementHelper._playWaypoint(String filename, List`1&lt;Coords&gt; list) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.AllInstances._startRecordingWaypointStringInt32">
+            <summary>MovementHelper._startRecordingWaypoint(String filename, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimMovementHelper.ShimCoords">
+            <summary>ffxivlib.MovementHelper+Coords の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimMovementHelper.ShimCoords.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimMovementHelper.ShimCoords.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimMovementHelper.ShimCoords.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.ShimCoords.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.ShimCoords.EqualityOpMovementHelperCoordsMovementHelperCoords">
+            <summary>Coords.op_Equality(Coords c1, Coords c2) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimMovementHelper.ShimCoords.InequalityOpMovementHelperCoordsMovementHelperCoords">
+            <summary>Coords.op_Inequality(Coords c1, Coords c2) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimMovementHelper.ShimCoords.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPartyMember">
+            <summary>ffxivlib.PartyMember の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPartyMember.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPartyMember.#ctor(ffxivlib.PartyMember)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPartyMember.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPartyMember.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.BuffsGet">
+            <summary>PartyMember.get_Buffs() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.BuffsSetBUFFArray">
+            <summary>PartyMember.set_Buffs(BUFF[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.ConstructorPartyMemberPARTYMEMBERINFOIntPtr">
+            <summary>PartyMember.PartyMember(PARTYMEMBERINFO structure, IntPtr address) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentGPGet">
+            <summary>PartyMember.get_CurrentGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentGPSetInt16">
+            <summary>PartyMember.set_CurrentGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentHPGet">
+            <summary>PartyMember.get_CurrentHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentHPSetInt32">
+            <summary>PartyMember.set_CurrentHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentMPGet">
+            <summary>PartyMember.get_CurrentMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentMPSetInt32">
+            <summary>PartyMember.set_CurrentMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentTPGet">
+            <summary>PartyMember.get_CurrentTP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.CurrentTPSetInt16">
+            <summary>PartyMember.set_CurrentTP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.JobGet">
+            <summary>PartyMember.get_Job() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.JobSetJOB">
+            <summary>PartyMember.set_Job(JOB value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.LevelGet">
+            <summary>PartyMember.get_Level() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.LevelSetByte">
+            <summary>PartyMember.set_Level(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.MaxGPGet">
+            <summary>PartyMember.get_MaxGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.MaxGPSetInt16">
+            <summary>PartyMember.set_MaxGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.MaxHPGet">
+            <summary>PartyMember.get_MaxHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.MaxHPSetInt32">
+            <summary>PartyMember.set_MaxHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.MaxMPGet">
+            <summary>PartyMember.get_MaxMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.MaxMPSetInt32">
+            <summary>PartyMember.set_MaxMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.NameGet">
+            <summary>PartyMember.get_Name() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.NameSetString">
+            <summary>PartyMember.set_Name(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.PlayerIDGet">
+            <summary>PartyMember.get_PlayerID() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.PlayerIDSetInt32">
+            <summary>PartyMember.set_PlayerID(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.XGet">
+            <summary>PartyMember.get_X() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.XSetSingle">
+            <summary>PartyMember.set_X(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.YGet">
+            <summary>PartyMember.get_Y() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.YSetSingle">
+            <summary>PartyMember.set_Y(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.ZGet">
+            <summary>PartyMember.get_Z() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.ZSetSingle">
+            <summary>PartyMember.set_Z(Single value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPartyMember.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.BuffsGet">
+            <summary>PartyMember.get_Buffs() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.BuffsSetBUFFArray">
+            <summary>PartyMember.set_Buffs(BUFF[] value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentGPGet">
+            <summary>PartyMember.get_CurrentGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentGPSetInt16">
+            <summary>PartyMember.set_CurrentGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentHPGet">
+            <summary>PartyMember.get_CurrentHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentHPSetInt32">
+            <summary>PartyMember.set_CurrentHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentMPGet">
+            <summary>PartyMember.get_CurrentMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentMPSetInt32">
+            <summary>PartyMember.set_CurrentMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentTPGet">
+            <summary>PartyMember.get_CurrentTP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.CurrentTPSetInt16">
+            <summary>PartyMember.set_CurrentTP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.JobGet">
+            <summary>PartyMember.get_Job() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.JobSetJOB">
+            <summary>PartyMember.set_Job(JOB value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.LevelGet">
+            <summary>PartyMember.get_Level() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.LevelSetByte">
+            <summary>PartyMember.set_Level(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.MaxGPGet">
+            <summary>PartyMember.get_MaxGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.MaxGPSetInt16">
+            <summary>PartyMember.set_MaxGP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.MaxHPGet">
+            <summary>PartyMember.get_MaxHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.MaxHPSetInt32">
+            <summary>PartyMember.set_MaxHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.MaxMPGet">
+            <summary>PartyMember.get_MaxMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.MaxMPSetInt32">
+            <summary>PartyMember.set_MaxMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.NameGet">
+            <summary>PartyMember.get_Name() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.NameSetString">
+            <summary>PartyMember.set_Name(String value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.PlayerIDGet">
+            <summary>PartyMember.get_PlayerID() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.PlayerIDSetInt32">
+            <summary>PartyMember.set_PlayerID(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.XGet">
+            <summary>PartyMember.get_X() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.XSetSingle">
+            <summary>PartyMember.set_X(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.YGet">
+            <summary>PartyMember.get_Y() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.YSetSingle">
+            <summary>PartyMember.set_Y(Single value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.ZGet">
+            <summary>PartyMember.get_Z() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.AllInstances.ZSetSingle">
+            <summary>PartyMember.set_Z(Single value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPartyMember.ShimPARTYMEMBERINFO">
+            <summary>ffxivlib.PartyMember+PARTYMEMBERINFO の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPartyMember.ShimPARTYMEMBERINFO.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPartyMember.ShimPARTYMEMBERINFO.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPartyMember.ShimPARTYMEMBERINFO.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPartyMember.ShimPARTYMEMBERINFO.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPartyMember.ShimPARTYMEMBERINFO.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPlayer">
+            <summary>ffxivlib.Player の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPlayer.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPlayer.#ctor(ffxivlib.Player)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPlayer.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPlayer.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ACNGet">
+            <summary>Player.get_ACN() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ACNSetByte">
+            <summary>Player.set_ACN(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ACN_EILGet">
+            <summary>Player.get_ACN_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ACN_EILSetInt32">
+            <summary>Player.set_ACN_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ALCGet">
+            <summary>Player.get_ALC() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ALCSetByte">
+            <summary>Player.set_ALC(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARCGet">
+            <summary>Player.get_ARC() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARCSetByte">
+            <summary>Player.set_ARC(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARC_EILGet">
+            <summary>Player.get_ARC_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARC_EILSetInt32">
+            <summary>Player.set_ARC_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARMGet">
+            <summary>Player.get_ARM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARMSetByte">
+            <summary>Player.set_ARM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARM_EILGet">
+            <summary>Player.get_ARM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ARM_EILSetInt32">
+            <summary>Player.set_ARM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AccuracyGet">
+            <summary>Player.get_Accuracy() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AccuracySetInt16">
+            <summary>Player.set_Accuracy(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AttackMagPotGet">
+            <summary>Player.get_AttackMagPot() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AttackMagPotSetInt16">
+            <summary>Player.set_AttackMagPot(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AttackPowGet">
+            <summary>Player.get_AttackPow() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AttackPowSetInt16">
+            <summary>Player.set_AttackPow(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BOTGet">
+            <summary>Player.get_BOT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BOTSetByte">
+            <summary>Player.set_BOT(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BOT_EILGet">
+            <summary>Player.get_BOT_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BOT_EILSetInt32">
+            <summary>Player.set_BOT_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BSMGet">
+            <summary>Player.get_BSM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BSMSetByte">
+            <summary>Player.set_BSM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BSM_EILGet">
+            <summary>Player.get_BSM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BSM_EILSetInt32">
+            <summary>Player.set_BSM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseDEXGet">
+            <summary>Player.get_BaseDEX() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseDEXSetInt16">
+            <summary>Player.set_BaseDEX(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseINTGet">
+            <summary>Player.get_BaseINT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseINTSetInt16">
+            <summary>Player.set_BaseINT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseMNDGet">
+            <summary>Player.get_BaseMND() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseMNDSetInt16">
+            <summary>Player.set_BaseMND(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BasePIEGet">
+            <summary>Player.get_BasePIE() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BasePIESetInt16">
+            <summary>Player.set_BasePIE(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseSTRGet">
+            <summary>Player.get_BaseSTR() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseSTRSetInt16">
+            <summary>Player.set_BaseSTR(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseVITGet">
+            <summary>Player.get_BaseVIT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BaseVITSetInt16">
+            <summary>Player.set_BaseVIT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BluntResGet">
+            <summary>Player.get_BluntRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.BluntResSetInt16">
+            <summary>Player.set_BluntRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CNJGet">
+            <summary>Player.get_CNJ() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CNJSetByte">
+            <summary>Player.set_CNJ(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CNJ_EILGet">
+            <summary>Player.get_CNJ_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CNJ_EILSetInt32">
+            <summary>Player.set_CNJ_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CPTGet">
+            <summary>Player.get_CPT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CPTSetByte">
+            <summary>Player.set_CPT(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CPT_EILGet">
+            <summary>Player.get_CPT_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CPT_EILSetInt32">
+            <summary>Player.set_CPT_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CULGet">
+            <summary>Player.get_CUL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CULSetByte">
+            <summary>Player.set_CUL(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CUL_EILGet">
+            <summary>Player.get_CUL_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CUL_EILSetInt32">
+            <summary>Player.set_CUL_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionAttackerLevelGet">
+            <summary>Player.get_CompanionAttackerLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionAttackerLevelSetByte">
+            <summary>Player.set_CompanionAttackerLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionDefenderLevelGet">
+            <summary>Player.get_CompanionDefenderLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionDefenderLevelSetByte">
+            <summary>Player.set_CompanionDefenderLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionEilGet">
+            <summary>Player.get_CompanionEil() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionEilSetInt32">
+            <summary>Player.set_CompanionEil(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionHealerLevelGet">
+            <summary>Player.get_CompanionHealerLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionHealerLevelSetByte">
+            <summary>Player.set_CompanionHealerLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionLevelGet">
+            <summary>Player.get_CompanionLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CompanionLevelSetByte">
+            <summary>Player.set_CompanionLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ConstructorPlayerPLAYERINFOIntPtr">
+            <summary>Player.Player(PLAYERINFO structure, IntPtr address) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ControlGet">
+            <summary>Player.get_Control() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ControlSetInt16">
+            <summary>Player.set_Control(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CraftmanshipGet">
+            <summary>Player.get_Craftmanship() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CraftmanshipSetInt16">
+            <summary>Player.set_Craftmanship(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CritRateGet">
+            <summary>Player.get_CritRate() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.CritRateSetInt16">
+            <summary>Player.set_CritRate(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.DEXGet">
+            <summary>Player.get_DEX() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.DEXSetInt16">
+            <summary>Player.set_DEX(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.DefenseGet">
+            <summary>Player.get_Defense() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.DefenseSetInt16">
+            <summary>Player.set_Defense(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.DeterminationGet">
+            <summary>Player.get_Determination() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.DeterminationSetInt16">
+            <summary>Player.set_Determination(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.EarthResGet">
+            <summary>Player.get_EarthRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.EarthResSetInt16">
+            <summary>Player.set_EarthRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.EvasionGet">
+            <summary>Player.get_Evasion() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.EvasionSetInt16">
+            <summary>Player.set_Evasion(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.FSHGet">
+            <summary>Player.get_FSH() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.FSHSetByte">
+            <summary>Player.set_FSH(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.FSH_EILGet">
+            <summary>Player.get_FSH_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.FSH_EILSetInt32">
+            <summary>Player.set_FSH_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.FireResGet">
+            <summary>Player.get_FireRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.FireResSetInt16">
+            <summary>Player.set_FireRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GLDGet">
+            <summary>Player.get_GLD() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GLDSetByte">
+            <summary>Player.set_GLD(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GLD_EILGet">
+            <summary>Player.get_GLD_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GLD_EILSetInt32">
+            <summary>Player.set_GLD_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GSMGet">
+            <summary>Player.get_GSM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GSMSetByte">
+            <summary>Player.set_GSM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GSM_EILGet">
+            <summary>Player.get_GSM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GSM_EILSetInt32">
+            <summary>Player.set_GSM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GatheringGet">
+            <summary>Player.get_Gathering() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GatheringSetInt16">
+            <summary>Player.set_Gathering(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GetSubzone">
+            <summary>Player.GetSubzone() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.GetZone">
+            <summary>Player.GetZone() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.HealMagPotGet">
+            <summary>Player.get_HealMagPot() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.HealMagPotSetInt16">
+            <summary>Player.set_HealMagPot(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.INTGet">
+            <summary>Player.get_INT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.INTSetInt16">
+            <summary>Player.set_INT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.IceResGet">
+            <summary>Player.get_IceRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.IceResSetInt16">
+            <summary>Player.set_IceRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.JobGet">
+            <summary>Player.get_Job() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.JobSetJOB">
+            <summary>Player.set_Job(JOB value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LNCGet">
+            <summary>Player.get_LNC() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LNCSetByte">
+            <summary>Player.set_LNC(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LNC_EILGet">
+            <summary>Player.get_LNC_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LNC_EILSetInt32">
+            <summary>Player.set_LNC_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LTWGet">
+            <summary>Player.get_LTW() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LTWSetByte">
+            <summary>Player.set_LTW(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LTW_EILGet">
+            <summary>Player.get_LTW_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LTW_EILSetInt32">
+            <summary>Player.set_LTW_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LightningResGet">
+            <summary>Player.get_LightningRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.LightningResSetInt16">
+            <summary>Player.set_LightningRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MINGet">
+            <summary>Player.get_MIN() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MINSetByte">
+            <summary>Player.set_MIN(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MIN_EILGet">
+            <summary>Player.get_MIN_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MIN_EILSetInt32">
+            <summary>Player.set_MIN_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MNDGet">
+            <summary>Player.get_MND() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MNDSetInt16">
+            <summary>Player.set_MND(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MRDGet">
+            <summary>Player.get_MRD() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MRDSetByte">
+            <summary>Player.set_MRD(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MRD_EILGet">
+            <summary>Player.get_MRD_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MRD_EILSetInt32">
+            <summary>Player.set_MRD_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MagicDefenseGet">
+            <summary>Player.get_MagicDefense() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MagicDefenseSetInt16">
+            <summary>Player.set_MagicDefense(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxCPGet">
+            <summary>Player.get_MaxCP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxCPSetInt32">
+            <summary>Player.set_MaxCP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxGPGet">
+            <summary>Player.get_MaxGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxGPSetInt32">
+            <summary>Player.set_MaxGP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxHPGet">
+            <summary>Player.get_MaxHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxHPSetInt32">
+            <summary>Player.set_MaxHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxMPGet">
+            <summary>Player.get_MaxMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxMPSetInt32">
+            <summary>Player.set_MaxMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxTPGet">
+            <summary>Player.get_MaxTP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.MaxTPSetInt32">
+            <summary>Player.set_MaxTP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PGLGet">
+            <summary>Player.get_PGL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PGLSetByte">
+            <summary>Player.set_PGL(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PGL_EILGet">
+            <summary>Player.get_PGL_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PGL_EILSetInt32">
+            <summary>Player.set_PGL_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PIEGet">
+            <summary>Player.get_PIE() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PIESetInt16">
+            <summary>Player.set_PIE(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ParryGet">
+            <summary>Player.get_Parry() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ParrySetInt16">
+            <summary>Player.set_Parry(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PerceptionGet">
+            <summary>Player.get_Perception() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PerceptionSetInt16">
+            <summary>Player.set_Perception(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PiercingResGet">
+            <summary>Player.get_PiercingRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PiercingResSetInt16">
+            <summary>Player.set_PiercingRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpLevelGet">
+            <summary>Player.get_PvpLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpLevelSetByte">
+            <summary>Player.set_PvpLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpTotalEXPGet">
+            <summary>Player.get_PvpTotalEXP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpTotalEXPSetInt16">
+            <summary>Player.set_PvpTotalEXP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpTotalMatchesGet">
+            <summary>Player.get_PvpTotalMatches() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpTotalMatchesSetInt16">
+            <summary>Player.set_PvpTotalMatches(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpTotalWinsGet">
+            <summary>Player.get_PvpTotalWins() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpTotalWinsSetInt16">
+            <summary>Player.set_PvpTotalWins(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpWeeklyMatchesGet">
+            <summary>Player.get_PvpWeeklyMatches() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpWeeklyMatchesSetInt16">
+            <summary>Player.set_PvpWeeklyMatches(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpWeeklyWinsGet">
+            <summary>Player.get_PvpWeeklyWins() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.PvpWeeklyWinsSetInt16">
+            <summary>Player.set_PvpWeeklyWins(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.STRGet">
+            <summary>Player.get_STR() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.STRSetInt16">
+            <summary>Player.set_STR(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.SkillSpeedGet">
+            <summary>Player.get_SkillSpeed() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.SkillSpeedSetInt16">
+            <summary>Player.set_SkillSpeed(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.SlashingResGet">
+            <summary>Player.get_SlashingRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.SlashingResSetInt16">
+            <summary>Player.set_SlashingRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.SpellSpeedGet">
+            <summary>Player.get_SpellSpeed() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.SpellSpeedSetInt16">
+            <summary>Player.set_SpellSpeed(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.SubzoneGet">
+            <summary>Player.get_Subzone() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.THMGet">
+            <summary>Player.get_THM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.THMSetByte">
+            <summary>Player.set_THM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.THM_EILGet">
+            <summary>Player.get_THM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.THM_EILSetInt32">
+            <summary>Player.set_THM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.VITGet">
+            <summary>Player.get_VIT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.VITSetInt16">
+            <summary>Player.set_VIT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WVRGet">
+            <summary>Player.get_WVR() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WVRSetByte">
+            <summary>Player.set_WVR(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WVR_EILGet">
+            <summary>Player.get_WVR_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WVR_EILSetInt32">
+            <summary>Player.set_WVR_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WaterResGet">
+            <summary>Player.get_WaterRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WaterResSetInt16">
+            <summary>Player.set_WaterRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WindResGet">
+            <summary>Player.get_WindRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.WindResSetInt16">
+            <summary>Player.set_WindRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ZoneGet">
+            <summary>Player.get_Zone() の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPlayer.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ACNGet">
+            <summary>Player.get_ACN() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ACNSetByte">
+            <summary>Player.set_ACN(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ACN_EILGet">
+            <summary>Player.get_ACN_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ACN_EILSetInt32">
+            <summary>Player.set_ACN_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ALCGet">
+            <summary>Player.get_ALC() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ALCSetByte">
+            <summary>Player.set_ALC(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARCGet">
+            <summary>Player.get_ARC() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARCSetByte">
+            <summary>Player.set_ARC(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARC_EILGet">
+            <summary>Player.get_ARC_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARC_EILSetInt32">
+            <summary>Player.set_ARC_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARMGet">
+            <summary>Player.get_ARM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARMSetByte">
+            <summary>Player.set_ARM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARM_EILGet">
+            <summary>Player.get_ARM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ARM_EILSetInt32">
+            <summary>Player.set_ARM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.AccuracyGet">
+            <summary>Player.get_Accuracy() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.AccuracySetInt16">
+            <summary>Player.set_Accuracy(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.AttackMagPotGet">
+            <summary>Player.get_AttackMagPot() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.AttackMagPotSetInt16">
+            <summary>Player.set_AttackMagPot(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.AttackPowGet">
+            <summary>Player.get_AttackPow() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.AttackPowSetInt16">
+            <summary>Player.set_AttackPow(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BOTGet">
+            <summary>Player.get_BOT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BOTSetByte">
+            <summary>Player.set_BOT(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BOT_EILGet">
+            <summary>Player.get_BOT_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BOT_EILSetInt32">
+            <summary>Player.set_BOT_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BSMGet">
+            <summary>Player.get_BSM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BSMSetByte">
+            <summary>Player.set_BSM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BSM_EILGet">
+            <summary>Player.get_BSM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BSM_EILSetInt32">
+            <summary>Player.set_BSM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseDEXGet">
+            <summary>Player.get_BaseDEX() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseDEXSetInt16">
+            <summary>Player.set_BaseDEX(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseINTGet">
+            <summary>Player.get_BaseINT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseINTSetInt16">
+            <summary>Player.set_BaseINT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseMNDGet">
+            <summary>Player.get_BaseMND() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseMNDSetInt16">
+            <summary>Player.set_BaseMND(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BasePIEGet">
+            <summary>Player.get_BasePIE() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BasePIESetInt16">
+            <summary>Player.set_BasePIE(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseSTRGet">
+            <summary>Player.get_BaseSTR() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseSTRSetInt16">
+            <summary>Player.set_BaseSTR(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseVITGet">
+            <summary>Player.get_BaseVIT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BaseVITSetInt16">
+            <summary>Player.set_BaseVIT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BluntResGet">
+            <summary>Player.get_BluntRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.BluntResSetInt16">
+            <summary>Player.set_BluntRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CNJGet">
+            <summary>Player.get_CNJ() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CNJSetByte">
+            <summary>Player.set_CNJ(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CNJ_EILGet">
+            <summary>Player.get_CNJ_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CNJ_EILSetInt32">
+            <summary>Player.set_CNJ_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CPTGet">
+            <summary>Player.get_CPT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CPTSetByte">
+            <summary>Player.set_CPT(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CPT_EILGet">
+            <summary>Player.get_CPT_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CPT_EILSetInt32">
+            <summary>Player.set_CPT_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CULGet">
+            <summary>Player.get_CUL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CULSetByte">
+            <summary>Player.set_CUL(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CUL_EILGet">
+            <summary>Player.get_CUL_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CUL_EILSetInt32">
+            <summary>Player.set_CUL_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionAttackerLevelGet">
+            <summary>Player.get_CompanionAttackerLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionAttackerLevelSetByte">
+            <summary>Player.set_CompanionAttackerLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionDefenderLevelGet">
+            <summary>Player.get_CompanionDefenderLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionDefenderLevelSetByte">
+            <summary>Player.set_CompanionDefenderLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionEilGet">
+            <summary>Player.get_CompanionEil() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionEilSetInt32">
+            <summary>Player.set_CompanionEil(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionHealerLevelGet">
+            <summary>Player.get_CompanionHealerLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionHealerLevelSetByte">
+            <summary>Player.set_CompanionHealerLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionLevelGet">
+            <summary>Player.get_CompanionLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CompanionLevelSetByte">
+            <summary>Player.set_CompanionLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ControlGet">
+            <summary>Player.get_Control() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ControlSetInt16">
+            <summary>Player.set_Control(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CraftmanshipGet">
+            <summary>Player.get_Craftmanship() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CraftmanshipSetInt16">
+            <summary>Player.set_Craftmanship(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CritRateGet">
+            <summary>Player.get_CritRate() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.CritRateSetInt16">
+            <summary>Player.set_CritRate(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.DEXGet">
+            <summary>Player.get_DEX() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.DEXSetInt16">
+            <summary>Player.set_DEX(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.DefenseGet">
+            <summary>Player.get_Defense() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.DefenseSetInt16">
+            <summary>Player.set_Defense(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.DeterminationGet">
+            <summary>Player.get_Determination() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.DeterminationSetInt16">
+            <summary>Player.set_Determination(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.EarthResGet">
+            <summary>Player.get_EarthRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.EarthResSetInt16">
+            <summary>Player.set_EarthRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.EvasionGet">
+            <summary>Player.get_Evasion() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.EvasionSetInt16">
+            <summary>Player.set_Evasion(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.FSHGet">
+            <summary>Player.get_FSH() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.FSHSetByte">
+            <summary>Player.set_FSH(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.FSH_EILGet">
+            <summary>Player.get_FSH_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.FSH_EILSetInt32">
+            <summary>Player.set_FSH_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.FireResGet">
+            <summary>Player.get_FireRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.FireResSetInt16">
+            <summary>Player.set_FireRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GLDGet">
+            <summary>Player.get_GLD() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GLDSetByte">
+            <summary>Player.set_GLD(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GLD_EILGet">
+            <summary>Player.get_GLD_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GLD_EILSetInt32">
+            <summary>Player.set_GLD_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GSMGet">
+            <summary>Player.get_GSM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GSMSetByte">
+            <summary>Player.set_GSM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GSM_EILGet">
+            <summary>Player.get_GSM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GSM_EILSetInt32">
+            <summary>Player.set_GSM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GatheringGet">
+            <summary>Player.get_Gathering() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GatheringSetInt16">
+            <summary>Player.set_Gathering(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GetSubzone">
+            <summary>Player.GetSubzone() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.GetZone">
+            <summary>Player.GetZone() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.HealMagPotGet">
+            <summary>Player.get_HealMagPot() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.HealMagPotSetInt16">
+            <summary>Player.set_HealMagPot(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.INTGet">
+            <summary>Player.get_INT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.INTSetInt16">
+            <summary>Player.set_INT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.IceResGet">
+            <summary>Player.get_IceRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.IceResSetInt16">
+            <summary>Player.set_IceRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.JobGet">
+            <summary>Player.get_Job() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.JobSetJOB">
+            <summary>Player.set_Job(JOB value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LNCGet">
+            <summary>Player.get_LNC() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LNCSetByte">
+            <summary>Player.set_LNC(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LNC_EILGet">
+            <summary>Player.get_LNC_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LNC_EILSetInt32">
+            <summary>Player.set_LNC_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LTWGet">
+            <summary>Player.get_LTW() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LTWSetByte">
+            <summary>Player.set_LTW(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LTW_EILGet">
+            <summary>Player.get_LTW_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LTW_EILSetInt32">
+            <summary>Player.set_LTW_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LightningResGet">
+            <summary>Player.get_LightningRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.LightningResSetInt16">
+            <summary>Player.set_LightningRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MINGet">
+            <summary>Player.get_MIN() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MINSetByte">
+            <summary>Player.set_MIN(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MIN_EILGet">
+            <summary>Player.get_MIN_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MIN_EILSetInt32">
+            <summary>Player.set_MIN_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MNDGet">
+            <summary>Player.get_MND() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MNDSetInt16">
+            <summary>Player.set_MND(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MRDGet">
+            <summary>Player.get_MRD() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MRDSetByte">
+            <summary>Player.set_MRD(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MRD_EILGet">
+            <summary>Player.get_MRD_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MRD_EILSetInt32">
+            <summary>Player.set_MRD_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MagicDefenseGet">
+            <summary>Player.get_MagicDefense() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MagicDefenseSetInt16">
+            <summary>Player.set_MagicDefense(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxCPGet">
+            <summary>Player.get_MaxCP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxCPSetInt32">
+            <summary>Player.set_MaxCP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxGPGet">
+            <summary>Player.get_MaxGP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxGPSetInt32">
+            <summary>Player.set_MaxGP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxHPGet">
+            <summary>Player.get_MaxHP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxHPSetInt32">
+            <summary>Player.set_MaxHP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxMPGet">
+            <summary>Player.get_MaxMP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxMPSetInt32">
+            <summary>Player.set_MaxMP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxTPGet">
+            <summary>Player.get_MaxTP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.MaxTPSetInt32">
+            <summary>Player.set_MaxTP(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PGLGet">
+            <summary>Player.get_PGL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PGLSetByte">
+            <summary>Player.set_PGL(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PGL_EILGet">
+            <summary>Player.get_PGL_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PGL_EILSetInt32">
+            <summary>Player.set_PGL_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PIEGet">
+            <summary>Player.get_PIE() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PIESetInt16">
+            <summary>Player.set_PIE(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ParryGet">
+            <summary>Player.get_Parry() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ParrySetInt16">
+            <summary>Player.set_Parry(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PerceptionGet">
+            <summary>Player.get_Perception() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PerceptionSetInt16">
+            <summary>Player.set_Perception(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PiercingResGet">
+            <summary>Player.get_PiercingRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PiercingResSetInt16">
+            <summary>Player.set_PiercingRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpLevelGet">
+            <summary>Player.get_PvpLevel() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpLevelSetByte">
+            <summary>Player.set_PvpLevel(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpTotalEXPGet">
+            <summary>Player.get_PvpTotalEXP() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpTotalEXPSetInt16">
+            <summary>Player.set_PvpTotalEXP(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpTotalMatchesGet">
+            <summary>Player.get_PvpTotalMatches() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpTotalMatchesSetInt16">
+            <summary>Player.set_PvpTotalMatches(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpTotalWinsGet">
+            <summary>Player.get_PvpTotalWins() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpTotalWinsSetInt16">
+            <summary>Player.set_PvpTotalWins(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpWeeklyMatchesGet">
+            <summary>Player.get_PvpWeeklyMatches() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpWeeklyMatchesSetInt16">
+            <summary>Player.set_PvpWeeklyMatches(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpWeeklyWinsGet">
+            <summary>Player.get_PvpWeeklyWins() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.PvpWeeklyWinsSetInt16">
+            <summary>Player.set_PvpWeeklyWins(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.STRGet">
+            <summary>Player.get_STR() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.STRSetInt16">
+            <summary>Player.set_STR(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.SkillSpeedGet">
+            <summary>Player.get_SkillSpeed() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.SkillSpeedSetInt16">
+            <summary>Player.set_SkillSpeed(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.SlashingResGet">
+            <summary>Player.get_SlashingRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.SlashingResSetInt16">
+            <summary>Player.set_SlashingRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.SpellSpeedGet">
+            <summary>Player.get_SpellSpeed() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.SpellSpeedSetInt16">
+            <summary>Player.set_SpellSpeed(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.SubzoneGet">
+            <summary>Player.get_Subzone() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.THMGet">
+            <summary>Player.get_THM() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.THMSetByte">
+            <summary>Player.set_THM(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.THM_EILGet">
+            <summary>Player.get_THM_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.THM_EILSetInt32">
+            <summary>Player.set_THM_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.VITGet">
+            <summary>Player.get_VIT() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.VITSetInt16">
+            <summary>Player.set_VIT(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WVRGet">
+            <summary>Player.get_WVR() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WVRSetByte">
+            <summary>Player.set_WVR(Byte value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WVR_EILGet">
+            <summary>Player.get_WVR_EIL() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WVR_EILSetInt32">
+            <summary>Player.set_WVR_EIL(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WaterResGet">
+            <summary>Player.get_WaterRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WaterResSetInt16">
+            <summary>Player.set_WaterRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WindResGet">
+            <summary>Player.get_WindRes() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.WindResSetInt16">
+            <summary>Player.set_WindRes(Int16 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.AllInstances.ZoneGet">
+            <summary>Player.get_Zone() の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPlayer.ShimPLAYERINFO">
+            <summary>ffxivlib.Player+PLAYERINFO の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPlayer.ShimPLAYERINFO.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPlayer.ShimPLAYERINFO.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimPlayer.ShimPLAYERINFO.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimPlayer.ShimPLAYERINFO.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimPlayer.ShimPLAYERINFO.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimResourceParser">
+            <summary>ffxivlib.ResourceParser の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimResourceParser.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimResourceParser.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimResourceParser.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetActionIDString">
+            <summary>ResourceParser.GetActionID(String name) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetActionNameInt16">
+            <summary>ResourceParser.GetActionName(Int16 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetActionNameInt32">
+            <summary>ResourceParser.GetActionName(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetAutotranslateInt32Int32">
+            <summary>ResourceParser.GetAutotranslate(Int32 CategoryId, Int32 Id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetBuffIDString">
+            <summary>ResourceParser.GetBuffID(String name) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetBuffNameBUFF">
+            <summary>ResourceParser.GetBuffName(BUFF item) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetBuffNameInt16">
+            <summary>ResourceParser.GetBuffName(Int16 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetGrandCompanyByte">
+            <summary>ResourceParser.GetGrandCompany(Byte id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetGrandCompanyEntity">
+            <summary>ResourceParser.GetGrandCompany(Entity e) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetGrandCompanyRankByte">
+            <summary>ResourceParser.GetGrandCompanyRank(Byte id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetGrandCompanyRankEntity">
+            <summary>ResourceParser.GetGrandCompanyRank(Entity e) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetItemIDString">
+            <summary>ResourceParser.GetItemID(String name) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetItemNameInt32">
+            <summary>ResourceParser.GetItemName(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetItemNameInventoryITEM">
+            <summary>ResourceParser.GetItemName(ITEM item) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetJobIDString">
+            <summary>ResourceParser.GetJobID(String name) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetJobNameEntity">
+            <summary>ResourceParser.GetJobName(Entity e) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetJobNameJOB">
+            <summary>ResourceParser.GetJobName(JOB id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetJobShortnameEntity">
+            <summary>ResourceParser.GetJobShortname(Entity e) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetJobShortnameJOB">
+            <summary>ResourceParser.GetJobShortname(JOB id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetQuestNameInt32">
+            <summary>ResourceParser.GetQuestName(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetTitleNameByte">
+            <summary>ResourceParser.GetTitleName(Byte id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetTitleNameEntity">
+            <summary>ResourceParser.GetTitleName(Entity e) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetZoneIDString">
+            <summary>ResourceParser.GetZoneID(String name) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.GetZoneNameInt32">
+            <summary>ResourceParser.GetZoneName(Int32 id) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.RunLinqQueryStringStringStringArrayStringInt32Array">
+            <summary>ResourceParser.RunLinqQuery(String filename, String node, String[] lookupKeys, String resultKey, Int32[] searchValues) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.RunLinqQueryStringStringStringStringInt32">
+            <summary>ResourceParser.RunLinqQuery(String filename, String node, String lookupKey, String resultKey, Int32 search) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.RunLinqQueryStringStringStringStringString">
+            <summary>ResourceParser.RunLinqQuery(String filename, String node, String lookupKey, String resultKey, String search) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.StaticConstructor">
+            <summary>ResourceParser.ResourceParser() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimResourceParser.StreamElementsStringString">
+            <summary>ResourceParser.StreamElements(String fileName, String elementName) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimSendKeyInput">
+            <summary>ffxivlib.SendKeyInput の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimSendKeyInput.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimSendKeyInput.#ctor(ffxivlib.SendKeyInput)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimSendKeyInput.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimSendKeyInput.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.ConstructorIntPtr">
+            <summary>SendKeyInput.SendKeyInput(IntPtr ffxivWindow) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.ConvertTextToInputIEnumerableOfCharInt32">
+            <summary>SendKeyInput.ConvertTextToInput(IEnumerable`1&lt;Char&gt; cString, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.GetInstance">
+            <summary>SendKeyInput.GetInstance() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.PostMessagePTRUInt32IntPtrIntPtr">
+            <summary>SendKeyInput.PostMessagePTR(UInt32 msg, IntPtr wParam, IntPtr lParam) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.SendKeyPressSendKeyInputVKKeysBooleanInt32">
+            <summary>SendKeyInput.SendKeyPress(VKKeys key, Boolean keyup, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.SendReturnKeyInt32">
+            <summary>SendKeyInput.SendReturnKey(Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.SetFocus">
+            <summary>SendKeyInput.SetFocus() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.SetInstanceIntPtr">
+            <summary>SendKeyInput.SetInstance(IntPtr ffxivWindow) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimSendKeyInput.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.AllInstances.ConvertTextToInputIEnumerableOfCharInt32">
+            <summary>SendKeyInput.ConvertTextToInput(IEnumerable`1&lt;Char&gt; cString, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.AllInstances.PostMessagePTRUInt32IntPtrIntPtr">
+            <summary>SendKeyInput.PostMessagePTR(UInt32 msg, IntPtr wParam, IntPtr lParam) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.AllInstances.SendKeyPressSendKeyInputVKKeysBooleanInt32">
+            <summary>SendKeyInput.SendKeyPress(VKKeys key, Boolean keyup, Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.AllInstances.SendReturnKeyInt32">
+            <summary>SendKeyInput.SendReturnKey(Int32 delay) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimSendKeyInput.AllInstances.SetFocus">
+            <summary>SendKeyInput.SetFocus() の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimTarget">
+            <summary>ffxivlib.Target の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimTarget.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimTarget.#ctor(ffxivlib.Target)">
+            <summary>指定されたインスタンスに対して新しい shim を初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimTarget.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimTarget.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.ConstructorTargetTARGETIntPtr">
+            <summary>Target.Target(TARGET structure, IntPtr address) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.CurrentTargetGet">
+            <summary>Target.get_CurrentTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.CurrentTargetIDGet">
+            <summary>Target.get_CurrentTargetID() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.CurrentTargetIDSetInt32">
+            <summary>Target.set_CurrentTargetID(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.CurrentTargetSetInt32">
+            <summary>Target.set_CurrentTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.FocusTargetGet">
+            <summary>Target.get_FocusTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.FocusTargetSetInt32">
+            <summary>Target.set_FocusTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.MouseoverTargetGet">
+            <summary>Target.get_MouseoverTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.MouseoverTargetSetInt32">
+            <summary>Target.set_MouseoverTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.PreviousTargetGet">
+            <summary>Target.get_PreviousTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.PreviousTargetSetInt32">
+            <summary>Target.set_PreviousTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimTarget.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.CurrentTargetGet">
+            <summary>Target.get_CurrentTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.CurrentTargetIDGet">
+            <summary>Target.get_CurrentTargetID() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.CurrentTargetIDSetInt32">
+            <summary>Target.set_CurrentTargetID(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.CurrentTargetSetInt32">
+            <summary>Target.set_CurrentTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.FocusTargetGet">
+            <summary>Target.get_FocusTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.FocusTargetSetInt32">
+            <summary>Target.set_FocusTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.MouseoverTargetGet">
+            <summary>Target.get_MouseoverTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.MouseoverTargetSetInt32">
+            <summary>Target.set_MouseoverTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.PreviousTargetGet">
+            <summary>Target.get_PreviousTarget() の shim の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.AllInstances.PreviousTargetSetInt32">
+            <summary>Target.set_PreviousTarget(Int32 value) の shim の設定</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimTarget.ShimTARGET">
+            <summary>ffxivlib.Target+TARGET の shim 型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimTarget.ShimTARGET.#ctor">
+            <summary>新しい shim インスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimTarget.ShimTARGET.BehaveAsCurrent">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;Current&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.ShimTarget.ShimTARGET.BehaveAsNotImplemented">
+            <summary>shim が適用された型のすべてのメソッドに対して &apos;NotImplemented&apos; 動作を割り当てます</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.ShimTarget.ShimTARGET.Behavior">
+            <summary>shim が適用された型のすべてのメソッドに対して動作を割り当てます</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.ShimTarget.ShimTARGET.AllInstances">
+            <summary>すべてのインスタンス メンバーに対して shim を定義します</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.StubChatlog">
+            <summary>ffxivlib.Chatlog のスタブ型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubChatlog.#ctor(ffxivlib.Chatlog.CHATLOGINFO,System.IntPtr)">
+            <summary>新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubChatlog.InitializeStub">
+            <summary>type StubChatlog の新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubChatlog.Modify``1(System.String,``0)">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の スタブ の設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubChatlog.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0})">
+            <summary>Modify(String field, !!0 value) のスタブの設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubChatlog.Refresh">
+            <summary>BaseObject`1.Refresh() の スタブ の設定</summary>
+        </member>
+        <member name="F:ffxivlib.Fakes.StubChatlog.Refresh01">
+            <summary>BaseObject`1.Refresh() の stub の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubChatlog.CallBase">
+            <summary>フォールバック動作の代わりに基本メソッドを呼び出すかどうかを示す値を取得または設定します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubChatlog.InstanceBehavior">
+            <summary>インスタンスの動作を取得または設定します。</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubChatlog.InstanceObserver">
+            <summary>インスタンス オブザーバーを取得または設定します。</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.StubEntity">
+            <summary>ffxivlib.Entity のスタブ型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubEntity.#ctor(ffxivlib.Entity.ENTITYINFO,System.IntPtr)">
+            <summary>新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubEntity.InitializeStub">
+            <summary>type StubEntity の新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubEntity.Modify``1(System.String,``0)">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の スタブ の設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubEntity.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0})">
+            <summary>Modify(String field, !!0 value) のスタブの設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubEntity.Refresh">
+            <summary>BaseObject`1.Refresh() の スタブ の設定</summary>
+        </member>
+        <member name="F:ffxivlib.Fakes.StubEntity.Refresh01">
+            <summary>BaseObject`1.Refresh() の stub の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubEntity.CallBase">
+            <summary>フォールバック動作の代わりに基本メソッドを呼び出すかどうかを示す値を取得または設定します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubEntity.InstanceBehavior">
+            <summary>インスタンスの動作を取得または設定します。</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubEntity.InstanceObserver">
+            <summary>インスタンス オブザーバーを取得または設定します。</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.StubFFXIVLIB">
+            <summary>ffxivlib.FFXIVLIB のスタブ型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubFFXIVLIB.#ctor(System.Int32)">
+            <summary>新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubFFXIVLIB.InitializeStub">
+            <summary>type StubFFXIVLIB の新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubFFXIVLIB.CallBase">
+            <summary>フォールバック動作の代わりに基本メソッドを呼び出すかどうかを示す値を取得または設定します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubFFXIVLIB.InstanceBehavior">
+            <summary>インスタンスの動作を取得または設定します。</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubFFXIVLIB.InstanceObserver">
+            <summary>インスタンス オブザーバーを取得または設定します。</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.StubInventory">
+            <summary>ffxivlib.Inventory のスタブ型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubInventory.#ctor(ffxivlib.Inventory.INVENTORY,System.IntPtr)">
+            <summary>新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubInventory.InitializeStub">
+            <summary>type StubInventory の新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubInventory.Modify``1(System.String,``0)">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の スタブ の設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubInventory.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0})">
+            <summary>Modify(String field, !!0 value) のスタブの設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubInventory.Refresh">
+            <summary>BaseObject`1.Refresh() の スタブ の設定</summary>
+        </member>
+        <member name="F:ffxivlib.Fakes.StubInventory.Refresh01">
+            <summary>BaseObject`1.Refresh() の stub の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubInventory.CallBase">
+            <summary>フォールバック動作の代わりに基本メソッドを呼び出すかどうかを示す値を取得または設定します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubInventory.InstanceBehavior">
+            <summary>インスタンスの動作を取得または設定します。</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubInventory.InstanceObserver">
+            <summary>インスタンス オブザーバーを取得または設定します。</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.StubPartyMember">
+            <summary>ffxivlib.PartyMember のスタブ型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPartyMember.#ctor(ffxivlib.PartyMember.PARTYMEMBERINFO,System.IntPtr)">
+            <summary>新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPartyMember.InitializeStub">
+            <summary>type StubPartyMember の新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPartyMember.Modify``1(System.String,``0)">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の スタブ の設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPartyMember.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0})">
+            <summary>Modify(String field, !!0 value) のスタブの設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPartyMember.Refresh">
+            <summary>BaseObject`1.Refresh() の スタブ の設定</summary>
+        </member>
+        <member name="F:ffxivlib.Fakes.StubPartyMember.Refresh01">
+            <summary>BaseObject`1.Refresh() の stub の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubPartyMember.CallBase">
+            <summary>フォールバック動作の代わりに基本メソッドを呼び出すかどうかを示す値を取得または設定します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubPartyMember.InstanceBehavior">
+            <summary>インスタンスの動作を取得または設定します。</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubPartyMember.InstanceObserver">
+            <summary>インスタンス オブザーバーを取得または設定します。</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.StubPlayer">
+            <summary>ffxivlib.Player のスタブ型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPlayer.#ctor(ffxivlib.Player.PLAYERINFO,System.IntPtr)">
+            <summary>新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPlayer.InitializeStub">
+            <summary>type StubPlayer の新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPlayer.Modify``1(System.String,``0)">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の スタブ の設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPlayer.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0})">
+            <summary>Modify(String field, !!0 value) のスタブの設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubPlayer.Refresh">
+            <summary>BaseObject`1.Refresh() の スタブ の設定</summary>
+        </member>
+        <member name="F:ffxivlib.Fakes.StubPlayer.Refresh01">
+            <summary>BaseObject`1.Refresh() の stub の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubPlayer.CallBase">
+            <summary>フォールバック動作の代わりに基本メソッドを呼び出すかどうかを示す値を取得または設定します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubPlayer.InstanceBehavior">
+            <summary>インスタンスの動作を取得または設定します。</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubPlayer.InstanceObserver">
+            <summary>インスタンス オブザーバーを取得または設定します。</summary>
+        </member>
+        <member name="T:ffxivlib.Fakes.StubTarget">
+            <summary>ffxivlib.Target のスタブ型</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubTarget.#ctor(ffxivlib.Target.TARGET,System.IntPtr)">
+            <summary>新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubTarget.InitializeStub">
+            <summary>type StubTarget の新しいインスタンスを初期化します</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubTarget.Modify``1(System.String,``0)">
+            <summary>BaseObject`1.Modify(String field, !!0 value) の スタブ の設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubTarget.ModifyOf1StringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0})">
+            <summary>Modify(String field, !!0 value) のスタブの設定</summary>
+        </member>
+        <member name="M:ffxivlib.Fakes.StubTarget.Refresh">
+            <summary>BaseObject`1.Refresh() の スタブ の設定</summary>
+        </member>
+        <member name="F:ffxivlib.Fakes.StubTarget.Refresh01">
+            <summary>BaseObject`1.Refresh() の stub の設定</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubTarget.CallBase">
+            <summary>フォールバック動作の代わりに基本メソッドを呼び出すかどうかを示す値を取得または設定します</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubTarget.InstanceBehavior">
+            <summary>インスタンスの動作を取得または設定します。</summary>
+        </member>
+        <member name="P:ffxivlib.Fakes.StubTarget.InstanceObserver">
+            <summary>インスタンス オブザーバーを取得または設定します。</summary>
+        </member>
+    </members>
+</doc>
