@@ -33,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ffxivlib">
@@ -59,6 +60,7 @@
     </ApplicationDefinition>
     <Compile Include="Log\FFXIVLog.cs" />
     <Compile Include="Log\LogParser.cs" />
+    <Compile Include="Model\AlertVoiceModel.cs" />
     <Compile Include="Utility\TextTalker.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
