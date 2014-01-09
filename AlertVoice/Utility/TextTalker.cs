@@ -48,24 +48,11 @@ namespace FFXIV.Tools.AlertVoice.Utility
         }
 
         /// <summary>
-        /// 音声出力が終わるまで待機します
-        /// </summary>
-        public void WaitSpoken()
-        {
-            while (this.VoiceSpeeach.Status.RunningState == SpeechRunState.SRSEIsSpeaking)
-            {
-                System.Threading.Thread.Sleep(50);
-            }
-        }
-
-        /// <summary>
         /// 指定した文章を既定の音声で読み上げます
         /// </summary>
         /// <param name="text"></param>
         public void TalkByDefaultVoice(string text)
         {
-            this.WaitSpoken();
-
             this.VoiceSpeeach.Speak(text, SpeechVoiceSpeakFlags.SVSFlagsAsync | SpeechVoiceSpeakFlags.SVSFIsXML);
         }
     }
