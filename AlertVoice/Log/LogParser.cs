@@ -29,10 +29,12 @@ namespace FFXIV.Tools.AlertVoice.Log
         /// <summary>
         /// テキストにアクションが含まれるかどうか
         /// </summary>
-        /// <param name="keyAction">調査対象アクション名</param>
-        /// <returns>含まれればTrue</returns>
-        public bool ContainsAction(params string[] keyActions)
+        /// <param name="keyActions">調査対象アクション名</param>
+        /// <returns>含まれればHitしたアクション、なければstring.Empty</returns>
+        public string GetHitAction(params string[] keyActions)
         {
+            string hitAction = string.Empty;
+
             // アクション表記がある場合
             if (this.Log.IsBattle()
                 && this.Log.IsFromMonster()
@@ -40,11 +42,19 @@ namespace FFXIV.Tools.AlertVoice.Log
                 && this.Log.Text.Contains("」"))
             {
                 var match = new Regex(@"(?<target>[^！⇒]+)(?<conjunction>[のには]+)[「](?<action>[^」]+)[」](?<etc>[^！]*)").Match(this.Log.Text);
+                var targetAction = match.Groups["action"].Value.Trim();
 
-                return keyActions.Any(k => k == match.Groups["action"].Value.Trim());
+                foreach (var word in keyActions)
+                {
+                    if (!string.IsNullOrWhiteSpace(word.Trim()) && targetAction == word.Trim())
+                    {
+                        hitAction = word + match.Groups["etc"].Value.Trim();
+                        break; 
+                    }
+                }        
             }
 
-            return false;
+            return hitAction;
         }
     }
 }
