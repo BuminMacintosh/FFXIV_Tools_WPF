@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 
-namespace PartyInformation
+namespace FFXIV.Tools.TargetInformation
 {
     /// <summary>
     /// App.xaml の相互作用ロジック
