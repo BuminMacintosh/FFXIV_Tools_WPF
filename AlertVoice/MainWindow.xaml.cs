@@ -84,7 +84,10 @@ namespace FFXIV.Tools.AlertVoice
 
                         if (source.IsDebugMode)
                         {
-                            debugString += parser.Log.Timestamp.ToString("[hh:mm:ss] ") + parser.Log.Text + "\n";
+                            debugString += string.Format("[{0:hhmmss}] [{1}] {2}",
+                                                         parser.Log.Timestamp,
+                                                         parser.Log.Code,
+                                                         parser.Log.Text);
                         }
                     }
                 }
@@ -93,7 +96,7 @@ namespace FFXIV.Tools.AlertVoice
             {
                 if (source.IsDebugMode)
                 {
-                    debugString = DateTime.Now.ToString("[hh:mm:ss] ") + ex.Message;
+                    debugString = string.Format("[{0:hhmmss}] {1}", DateTime.Now, ex.Message);
                 }
             }
 
