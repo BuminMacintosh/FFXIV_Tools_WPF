@@ -37,7 +37,7 @@
         <Thumb DragDelta="WindowBackground_DragDelta" Style="{StaticResource MainWindowBorder}" />
 
         <!-- アクション入力用テキストボックス -->
-        <TextBox x:Name="txtInputAction" Text="{Binding Text, Mode=TwoWay}" Height="100" Margin="5 30 5 0" />
+        <TextBox x:Name="txtInputAction" Text="{Binding Text, Mode=TwoWay}" Height="100" Margin="5 30 5 0" MaxLines="5" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
 
         <!-- カスタム閉じるボタン -->
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5 5 0 0">
