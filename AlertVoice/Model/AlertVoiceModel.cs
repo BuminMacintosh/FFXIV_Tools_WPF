@@ -40,6 +40,24 @@ namespace FFXIV.Tools.AlertVoice.Model
             }
         }
 
+        private bool _isDebugMode;
+        public bool IsDebugMode
+        {
+            get
+            {
+                return _isDebugMode;
+            }
+
+            set
+            {
+                if (value != _isDebugMode)
+                {
+                    _isDebugMode = value;
+                    this.NotifyPropertyChanged("IsDebugMode");
+                }
+            }
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         private void NotifyPropertyChanged(string name)

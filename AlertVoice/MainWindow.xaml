@@ -14,6 +14,7 @@
     x:Class="FFXIV.Tools.AlertVoice.MainWindow"
     Height="200" Width="300"
     MinHeight="150" MinWidth="200"
+    MaxHeight="505"
  >
     <Window.Resources>
         <ResourceDictionary Source="Style/AlertVoice.xaml"/>
@@ -30,7 +31,9 @@
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal" Grid.Row="0">
             </StackPanel>
-            <TextBlock Text="{Binding DebugText, Mode=TwoWay}" Margin="5" Grid.Row="2" ></TextBlock>
+            <StackPanel Margin="5" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock Text="{Binding DebugText, Mode=TwoWay}" />
+            </StackPanel>
         </Grid>
         
         <!-- ウィンドウのドラッグ移動Thumb -->
@@ -41,8 +44,9 @@
 
         <!-- カスタム閉じるボタン -->
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5 5 0 0">
-            <Button Style="{StaticResource CustomButton}" Content="Start" Click="Start_Click" Width="50" />
-            <Button Style="{StaticResource CustomButton}" Content="Stop" Click="Stop_Click" Width="50" />
+            <Button x:Name="btnStart" Style="{StaticResource CustomButton}" Content="Start" Click="Start_Click" Width="50" />
+            <Button x:Name="btnStop" Style="{StaticResource CustomButton}" Content="Stop" Click="Stop_Click" Width="50" />
+            <CheckBox x:Name="chkDebug" Margin="20 0 0 0" Foreground="White" Background="Black" Opacity="0.5" IsChecked="{Binding IsDebugMode, Mode=TwoWay}" Content="Debug" />
         </StackPanel>
 
         <!-- カスタム閉じるボタン -->

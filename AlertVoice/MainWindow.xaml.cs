@@ -24,8 +24,15 @@ namespace FFXIV.Tools.AlertVoice
 
             this.DataContext = new Model.AlertVoiceModel()
             {
-                Text = "ここにキーとなるアクション名を入力します。"
+                Text = "ここにキーとなるアクション名を入力します。（5個まで可）",
+                IsDebugMode = false,
             };
+
+            // 操作用コントロールのヒットテスト初期化
+            this.txtInputAction.IsHitTestVisible = true;
+            this.chkDebug.IsHitTestVisible = true;
+            this.btnStart.IsHitTestVisible = true;
+            this.btnStop.IsHitTestVisible = false;
 
             // FFXIVLIBに使用する言語を指定する
             Constants.ResourceParser.RESOURCES_LANGUAGE = "ja";
@@ -75,28 +82,45 @@ namespace FFXIV.Tools.AlertVoice
 
                         talker.TalkByDefaultVoice(parser.GetHitAction(keyActions));
 
-                        debugString += parser.Log.Text + Environment.NewLine;
+                        if (source.IsDebugMode)
+                        {
+                            debugString += parser.Log.Timestamp.ToString("[hh:mm:ss] ") + parser.Log.Text + "\n";
+                        }
                     }
                 }
             }
             catch (Exception ex)
             {
-                debugString = ex.Message;
+                if (source.IsDebugMode)
+                {
+                    debugString = DateTime.Now.ToString("[hh:mm:ss] ") + ex.Message;
+                }
             }
 
-            source.DebugText = debugString;
+            if (!string.IsNullOrEmpty(debugString))
+            {
+                if (!string.IsNullOrEmpty(source.DebugText)) source.DebugText += "\n";
+                source.DebugText += debugString;
+                source.DebugText = string.Join("\n", source.DebugText.Split('\n').Reverse().Take(20).Reverse());
+            }
         }
 
         private void Start_Click(object sender, RoutedEventArgs e)
         {
             this.timer.Start();
             this.txtInputAction.IsHitTestVisible = false;
+            this.chkDebug.IsHitTestVisible = false;
+            this.btnStart.IsHitTestVisible = false;
+            this.btnStop.IsHitTestVisible = true;
         }
 
         private void Stop_Click(object sender, RoutedEventArgs e)
         {
             this.timer.Stop();
             this.txtInputAction.IsHitTestVisible = true;
+            this.chkDebug.IsHitTestVisible = true;
+            this.btnStart.IsHitTestVisible = true;
+            this.btnStop.IsHitTestVisible = false;
         }
 
         private void WindowBackground_DragDelta(object sender, System.Windows.Controls.Primitives.DragDeltaEventArgs e)
