@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using ffxivlib;
 
 namespace FFXIV.Tools.AlertVoice.Log
 {
     public class LogParser
     {
-        private FFXIVLog Log { get; set; }
+        public FFXIVLog Log { get; private set; }
 
         /// <summary>
-        /// テキストパーサー
+        /// ログエントリをメンバーへ設定します
         /// </summary>
         /// <param name="entry">FFXIVLIBのログエントリオブジェクト</param>
-        /// <returns></returns>
         public LogParser(Chatlog.Entry entry)
         {
             this.Log = new FFXIVLog()
@@ -27,7 +22,7 @@ namespace FFXIV.Tools.AlertVoice.Log
         }
 
         /// <summary>
-        /// テキストにアクションが含まれるかどうか
+        /// テキストにアクションが含まれればヒットしたアクション名を返します
         /// </summary>
         /// <param name="keyActions">調査対象アクション名</param>
         /// <returns>含まれればHitしたアクション、なければstring.Empty</returns>
@@ -38,6 +33,7 @@ namespace FFXIV.Tools.AlertVoice.Log
             // アクション表記がある場合
             if (this.Log.IsBattle()
                 && this.Log.IsFromMonster()
+                && this.Log.IsStartAction()
                 && this.Log.Text.Contains("「")
                 && this.Log.Text.Contains("」"))
             {

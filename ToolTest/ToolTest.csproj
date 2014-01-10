@@ -61,13 +61,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FFXIVLogPaser\FFXIVLogParser.csproj">
-      <Project>{5ec4ae6d-495f-48a6-9472-3e93bb56ad76}</Project>
-      <Name>FFXIVLogParser</Name>
-    </ProjectReference>
+    <Fakes Include="Fakes\ffxivlib.fakes" />
   </ItemGroup>
   <ItemGroup>
-    <Fakes Include="Fakes\ffxivlib.fakes" />
+    <ProjectReference Include="..\AlertVoice\AlertVoice.csproj">
+      <Project>{9d20d36b-6c3f-464d-bb66-1742b9719971}</Project>
+      <Name>AlertVoice</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
